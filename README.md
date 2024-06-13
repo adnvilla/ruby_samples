@@ -46,3 +46,9 @@ IRB-  Interactive Ruby Execution
 Hello Ruby!
  => nil
 ```
+
+### Variables
+
+```bash
+ruby ./variables/variables.rb
+```
