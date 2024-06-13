@@ -25,3 +25,24 @@ source ~/.bashrc
 rvm install 3.2.3
 rvm use 3.2.3 --default
 ```
+
+## Samples
+
+### Hello World
+
+```bash
+ruby -e 'print "Hello Ruby!\n"' // cli
+
+OR
+
+ruby ./hello/hello.rb  // file
+```
+
+IRB-  Interactive Ruby Execution
+
+```bash
+/ruby_samples$ irb
+3.2.3 :001 > puts 'Hello Ruby!'
+Hello Ruby!
+ => nil
+```
